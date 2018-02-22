@@ -237,12 +237,12 @@ export default {
     selectFirstPage() {
       this.selected = 0
 
-      this.clickHandler(this.selected)
+      this.clickHandler(this.selected + 1)
     },
     selectLastPage() {
       this.selected = this.pageCount - 1
 
-      this.clickHandler(this.selected)
+      this.clickHandler(this.selected + 1)
     }
   }
 }
